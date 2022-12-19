@@ -1,0 +1,282 @@
+body{
+  min-height: 100vh;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: stretch;
+  /*padding: 15px;*/
+}
+.menu{
+  background-color: #fbf7f4;
+  min-width: 180px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.menu-list{
+  width: 100%;
+  font-weight: bold;
+}
+.menu-list ul{
+  padding: 0 0 0 25px;
+  font-size: 18px;
+}
+.menu-list ol{
+  margin: 15px 0 15px 0;
+  color: gray;
+}
+.menu-list li{
+  list-style: none;
+  margin: 7px 0 0 0;
+}
+details > summary {
+  list-style: none;
+}
+.menu-icon{
+  margin: 0 8px 0 0;
+}
+.plan{
+  background-color: white;
+  flex-grow: 1;
+  padding: 30px;
+  min-width: 380px;
+}
+.head-of-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-of-head{
+  font-weight: bolder;
+  font-size: 24px;
+  margin: 0;
+}
+.today{
+  font-size: 16px;
+  color: silver;
+  margin: 7px 0;
+}
+.meeting-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0 0 0;
+}
+.user1{
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=2000");
+  background-size: cover;
+  background-position: center;
+}
+.user2{
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://media.istockphoto.com/id/1335941248/photo/shot-of-a-handsome-young-man-standing-against-a-grey-background.jpg?b=1&s=170667a&w=0&k=20&c=Dl9uxPY_Xn159JiazEj0bknMkLxFdY7f4tK1GtOGmis=");
+  background-size: cover;
+  background-position: center;
+  transform: translateX(-70px);
+}
+.user3{
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXR8ZW58MHx8MHx8&w=1000&q=80");
+  background-size: cover;
+  background-position: center;
+  transform: translateX(-140px);
+}
+.meeting-title{
+  border-left: 1px solid silver;
+  padding-left: 15px;
+}
+.meeting-title p{
+  margin: 0;
+  font-size: 16px;
+}
+.weekly-report{
+  border: 1px solid silver;
+  width: 460px;
+  height: 260px;
+  background-image: url("https://img.freepik.com/free-photo/neutral-abstract-texture-simple-background_53876-102511.jpg?w=2000");
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+}
+.title{
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 30px 0 0 35px;
+}
+.description{
+  font-size: 16px;
+  margin: 12px 0 0 35px;
+  color: gray;
+}
+.weekly-report button{
+  margin: 80px 0 0 35px;
+  background: transparent;
+  border: 1px solid gray;
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.footer-of-pin{
+  display: flex;
+  flex-direction: row;
+}
+.study{
+  border: 1px solid silver;
+  width: 290px;
+  height: 230px;
+  background-image: url("https://img.freepik.com/free-photo/neutral-abstract-texture-simple-background_53876-102511.jpg?w=2000");
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+}
+.study .description{
+  font-size: 16px;
+  color: black;
+  transform: translate(28px, -38px);
+}
+.watch-icon{
+  color: #000000;
+  margin: 12px 0 0 30px;
+}
+.analyses{
+  border: 1px solid silver;
+  width: 290px;
+  height: 230px;
+  background-image: url("https://img.freepik.com/free-photo/neutral-abstract-texture-simple-background_53876-102511.jpg?w=2000");
+  background-size: cover;
+  background-position: center;
+  margin: 40px 0 0 35px;
+}
+.analyses .description{
+  font-size: 16px;
+  color: black;
+  transform: translate(28px, -38px);
+}
+.completed{
+  color: #000000;
+  margin: 12px 0 0 30px;
+}
+.pins{
+  background-color: #fbf7f4;
+  flex-grow: 1;
+  padding: 30px;
+  min-width: 500px;
+}
+.title-of-pins{
+  font-weight: bolder;
+  font-size: 24px;
+  margin: 0;
+}
+.head-of-learning{
+  margin: 28px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.head-of-learning .today{
+  margin: 10px 0 0 0;
+}
+.view-all{
+  font-size: 15px;
+  color: silver;
+  margin: 0;
+}
+.block-of-pin{
+  height: 110px;
+  border: 1px solid silver;
+  padding: 15px;
+  margin: 15px 0;
+}
+.block-of-pin p{
+  margin: 0;
+}
+.block-of-harmony{
+  height: 130px;
+  border: 1px solid silver;
+  padding: 15px;
+  margin: 15px 0;
+}
+.block-of-harmony p{
+  margin: 0;
+}
+.next-gen-title{
+  color: silver;
+  font-size: 14px;
+}
+.next-gen-days{
+  color:silver;
+  font-size: 16px;
+}
+.next-gen-analysis{
+  font-weight: bolder;
+  font-size: 19px;
+  padding: 15px 0;
+}
+.feedback{
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0 0 0;
+}
+.next-gen-feedback{
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.lectures{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 30px 0 0;
+}
+.block-of-lectures{
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0 ; /*top right bottom left*/
+}
+.block-of-lectures p{
+  margin: 0;
+}
+.title-of-lectures{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.percent-of-progress{
+  font-size: 15px;
+  color: gray;
+}
+.texts-of-lectures{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.info{
+  background-color: #fbf7f4;
+  width: 145px;
+  border-left: 1px solid silver;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 145px;
+  align-items: center;
+  padding: 30px;
+}
+.info .user1{
+  width: 65px;
+  height: 65px;
+}
+.info p{
+  margin: 16px 0 0 0;
+}
+
